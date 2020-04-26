@@ -24,4 +24,4 @@ http://tk2-410-46264.vs.sakura.ne.jp:8000/searchword/キャンプ
 
 # etc
 
-開発用に動かしているので常時は見れません。。。
+-
