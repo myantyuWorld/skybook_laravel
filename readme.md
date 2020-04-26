@@ -21,3 +21,7 @@ http://tk2-410-46264.vs.sakura.ne.jp:8000/usertimeline
 http://tk2-410-46264.vs.sakura.ne.jp:8000/searchword/キャンプ
 ↑ searchword/のあとに、検索したいハッシュタグを入力してください
 ```
+
+# etc
+
+開発用に動かしているので常時は見れません。。。
