@@ -24,7 +24,12 @@ class SearchHashTagController extends Controller
             'lang' => 'ja',
             'q' => '%23' . $search_word // #{search_word}}で検索
         ));
+        echo("---------------------------------------------");
+        echo("★　TwitterAPI叩いた結果の生データ　★　");
+        echo("---------------------------------------------");
         $tweets = json_decode($req);
+        var_dump($tweets);
+        echo("---------------------------------------------");
         $tmpStr = '';
         if (isset($tweets) && empty($tweets->errors)) {
             $tweets = $tweets->statuses;
